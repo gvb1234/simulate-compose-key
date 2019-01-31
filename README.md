@@ -8,7 +8,9 @@ The goal of this (small, linux) project is to:
       /usr/share/X11/locale/en_US.UTF-8/Compose
       
   3) if the keys do not form a valid sequence, just type them in said application as regular characters
-  4) but otherwise, send the "composed" character (as found in the Compose file above, or some other related thing) to the application
+  4) but otherwise, send the "composed" character (as found in the Compose file above, or some other related thing, more on that below) to the application
+
+That's it.
 
 # Background
 
