@@ -24,7 +24,7 @@ I have an editor that I really like. For a long time, it had some weird behaviou
   
   The bad thing about that editor is that it does not support utf-8 that well (most files get open in latin-1 mode), and does not seem to like receiving anything but "low-ascii" characters as input when you type.
   
-  For instance, it would accept "xdotool type à", but would balk at "xdotool type é" (interpreted as Alt-2, go figure).
+  For instance, it would accept "à" when running "xdotool selectwindow type à" in a separate window, but would balk at "xdotool selectwindow type é" (interpreted as Alt-2, go figure).
   
   This weird behaviour ruled out step 4) above (sending dirtectly the composed utf-8 character found in the compose file).
   
