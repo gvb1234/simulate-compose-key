@@ -26,7 +26,7 @@ I have an editor that I really like. For a long time, it had some weird behaviou
   
   For instance, it would accept "xdotool type à", but would balk at "xdotool type é" (interpreted as Alt-2, go figure).
   
-  This weird behaviour ruled out step 4) above (sending the composed utf-8 character found in the compose file).
+  This weird behaviour ruled out step 4) above (sending dirtectly the composed utf-8 character found in the compose file).
   
   What I ended up doing in step 4) is to send a non-existing key (like F16), followed by the keys to be composed in litteral (low ascii) format like <asciicircum><e>, followed by Return.
   
