@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# this is the main (daemon) file
+
 try:
     import Xlib.X as X
 #    import Xlib.XK
