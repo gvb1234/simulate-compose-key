@@ -36,6 +36,6 @@ I have an editor that I really like. For a long time, it had some weird behaviou
   
   The editor catches F16, which invokes a macro which globs all the characters before the Return. That macro then looks up in a table for what it should "insert" instead of \<asciicircum\>\<e\> into the open buffer, _if_ it can do so meaningfully.
   
-  Now, high ascii values will not work in this editor. But since I mostly use if for LaTeX, I've set the macro to insert LaTeX code for the high ascii characters, and for the low ones as well if the ascii character is not translated correctly by the LaTeX compilation.
+  Now, high ascii values will not work in this editor, as I said. But since I mostly use if for LaTeX, I've set the macro to insert LaTeX code for the high ascii characters, and for the low ones as well if the ascii character is not translated correctly by the LaTeX compilation.
   
   Yeah. I know. I am crazy. But this was fun to do.
