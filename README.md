@@ -12,6 +12,10 @@ The goal of this (small, python, linux) project is to:
 
 That's it.
 
+# how to run it
+
+run the autokey.py file
+
 # Background
 
 I have an editor that I really like. For a long time, it had some weird behaviour when composing keys. It would transform correctly \<Multi_Key\>\<e\>\<asciicircum\> into "ê" (no quotes, obviously),  but would refuse to transform \<Multi_Key\>\<asciicircum\>\<e\>" into ê.
